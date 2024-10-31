@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /candybook
+Spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/candybook"
+    username: root
+    password: Nhianh0601
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
