@@ -21,6 +21,7 @@ public class BookService {
         book.setSupplier(request.getSupplier());
         book.setPublic_year(request.getPublic_year());
         book.setQuantity_of_page(request.getQuantity_of_page());
+        book.setAge(request.getAge());
         book.setTittle(request.getTittle());
         return bookRepository.save(book);
     }
@@ -39,6 +40,7 @@ public class BookService {
         book.setSupplier(request.getSupplier());
         book.setPublic_year(request.getPublic_year());
         book.setQuantity_of_page(request.getQuantity_of_page());
+        book.setAge(request.getAge());
         book.setTittle(request.getTittle());
         return bookRepository.save(book);
     }

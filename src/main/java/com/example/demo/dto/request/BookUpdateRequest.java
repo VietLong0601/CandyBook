@@ -7,7 +7,16 @@ public class BookUpdateRequest {
     private int public_year;
     private int quantity_of_page;
     private String book_status;
+    private String age;
     private String description;
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
 
     public String getTittle() {
         return tittle;
