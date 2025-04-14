@@ -1,0 +1,29 @@
+/* styles/fonts.css */
+@font-face {
+    font-family: 'Milkyway';
+    src: url('/fonts/milkyway-demo.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* styles/fonts.css */
+@font-face {
+    font-family: 'BabySparkle';
+    src: url('/fonts/baby-sparkle.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atop';
+    src: url('/fonts/atop.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChonkyBunny';
+    src: url('/fonts/chonky-bunny.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
